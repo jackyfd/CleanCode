@@ -1,2 +1,2 @@
 # CodeStyle
-see https://github.com/Jacky-Cai/CodeStyle/wiki
+see https://github.com/Jacky-Cai/CleanCode/wiki
