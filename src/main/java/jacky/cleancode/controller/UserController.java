@@ -4,10 +4,15 @@ import jacky.cleancode.domain.User;
 import jacky.cleancode.message.AddUserRequest;
 import jacky.cleancode.message.AddUserResponse;
 import jacky.cleancode.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class UserController {
-    public final UserService userService;
 
+    private final UserService userService;
+
+    @Autowired
     public UserController(UserService userService) {
         this.userService = userService;
     }

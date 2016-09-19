@@ -1,11 +1,15 @@
 package jacky.cleancode.access;
 
 import jacky.cleancode.domain.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserAccess {
 
-    public final DBSource dbSource;
+    private final DBSource dbSource;
 
+    @Autowired
     public UserAccess(DBSource dbSource) {
         this.dbSource = dbSource;
     }

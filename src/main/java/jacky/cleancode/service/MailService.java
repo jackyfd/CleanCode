@@ -1,5 +1,8 @@
 package jacky.cleancode.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MailService {
 
     public final String mailServerHost;
