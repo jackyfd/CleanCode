@@ -4,7 +4,7 @@ public class User {
 
     public String name;
     public String encryptedPassword;
-    public UserSetting userSetting;
+    public UserPreference userPreference;
 
 
 }
